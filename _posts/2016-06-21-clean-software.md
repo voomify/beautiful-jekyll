@@ -4,7 +4,7 @@ title: Clean Software
 date: 2016-06-21 04:00:00 
 ---
 
-Kurt Grafius and [Russell Edens ](http://www.russelledens.net/) created Voomify to create clean software.
+[Russell Edens ](http://www.russelledens.net/)  and Kurt Grafius created Voomify to create clean software.
 
 ***What is clean software?***
 
