@@ -12,16 +12,12 @@ If you have worked in the software industry long enough, eventually you've exper
 
 Code behaves the same. Each time a technical debt is 'charged', the code becomes more expensive. Well-written code is a beautiful thing, for both the developers and the business. Well-written code is easy to understand. It is easy to work inside, even if you are not familiar with it. It is easy to maintain. It is easy to add features to. The cost of doing something new remains more or less linear. Code with significant technical debt is the opposite. It compounds and the code eventually experiences 'bankruptcy'. What follows is those dreaded words, "we need a re-write"".
 
-Clean code also significantly increases developer motivation and satisfaction. There are perhaps no more important factors in maximizing productivity than developer motivation and satisfaction. While this cost is harder to measure, it has a multiplying effect. It helps with recruiting new developers. A technical company is only as good as its people.
+Clean code also significantly increases developer motivation and satisfaction. There are perhaps no more important factors in maximizing productivity than developer motivation and satisfaction. While this cost is harder to measure, it has a multiplying effect. It helps with recruiting new developers.
 
 For the business the benefit of clean code is clear. It is significantly less expensive to produce high quality, innovative products.
 
-Clean code is not homeostasis, entropy is.
+***Are you ready for clean code?***
 
-That means that clean code is hard stuff to achieve, without explicit attention to creating a culture around it.
-
-How clean is your code?
-
-Are you ready for clean code? [Contact us]({{ "/contact-us" }}) we can help. 
+[Contact us]({{ "/contact-us" }}) we can help. 
 
 [^footnote]: We don't work for Bob Martin or Clean Coders. We do however believe in many of the same things.
