@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Clean Architecture
-date: 2016-06-14 00:00:02 
+date: 2016-06-21 04:00:02 
 ---
 [Clean architecture](https://blog.8thlight.com/uncle-bob/2012/08/13/the-clean-architecture.html) has many names. It has been well defined by guru's in the industry since the 1980's.[^clean-names] 
 Despite existing for so long with many names, it is exceedingly rare to find it in the wild.

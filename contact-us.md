@@ -4,7 +4,7 @@ title: Contact Us
 subtitle:
 ---
 
-Voomify is a [clean software]({% post_url 2016-06-14-clean-software %}) consulting company created by [Russell Edens ](http://russelledens.net/) and Kurt Grafius.
+Voomify is a [clean software]({% post_url 2016-06-21-clean-software %}) consulting company created by [Russell Edens ](http://russelledens.net/) and Kurt Grafius.
 
 ***Are you ready for clean software?***
 

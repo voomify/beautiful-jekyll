@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Clean Code
-date: 2016-06-14 00:00:01
+date: 2016-06-21 04:00:01
 ---
 [Uncle Bob Martin](https://sites.google.com/site/unclebobconsultingllc/) wrote the definitive book on what it means to write clean code. 
 If you want a full treatment, buy [Uncle Bob's book](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882). [^footnote] 
