@@ -2,7 +2,7 @@
 layout: post
 title: Clean Software
 subtitle: What is clean software and why do you need it?
-fb-img: img/wash-macbook.jpeg 
+fb-img: img/washing-code.png 
 date: 2016-06-21 04:00:00 
 ---
 
