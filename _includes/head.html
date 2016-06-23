@@ -58,9 +58,14 @@
   {% else %}
   <meta property="og:url" content="{{ site.url }}{{ page.url | remove: '/index.html' | remove: '.html' }}" />
   {% endif %}
-  
+
   {% if page.fb-img %}
-  <meta property="og:image" content="{{ page.fb-img }}" />
+    {% assign fb_image = page.fb-img %}
+    {% assign http_prefix = fb_image | truncate: 4, '' | downcase %}
+    {% unless http_prefix == 'http' %}
+      {% capture fb_image %}{{ site.url }}/{{ page.fb-img }}{% endcapture %}
+    {% endunless %}
+  <meta property="og:image" content="{{ fb_image }}" />
   {% elsif site.avatar %}
   <meta property="og:image" content="{{ site.url }}{{ site.avatar }}" />
   {% else %}
