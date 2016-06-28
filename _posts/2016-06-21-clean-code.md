@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Clean Code
+subtitle: Or how to avoid crippling techncial debt
+fb-img: img/clean-code.jpg 
 date: 2016-06-21 04:00:01
 ---
 [Uncle Bob Martin](https://sites.google.com/site/unclebobconsultingllc/) wrote the definitive book on what it means to write clean code. 
