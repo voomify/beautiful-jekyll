@@ -10,6 +10,9 @@ layout: base
       <article role="main" class="blog-post">
 	      {{ content }}
 	    </article>
+
+        {% include share.html %}
+
 	  	  
       <ul class="pager blog-pager">
         {% if page.previous.url %}
