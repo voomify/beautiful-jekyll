@@ -7,10 +7,7 @@
             </li>
             {% if site.author.twitter and site.footer-links-active.twitter %}
             <li>
-                <a href="https://twitter.com/share?
-                            text={{ page.title }}
-                            &url={{ page.shorturl }}
-                            &via={{ site.author.twitter }}" title="Share on Twitter">
+                <a href="https://twitter.com/share?text={{ page.title }}&url={{site.url}}{{ page.url }}&via={{ site.author.twitter }}" title="Share on Twitter">
           <span class="fa-stack fa-lg">
             <i class="fa fa-circle fa-stack-2x"></i>
             <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
@@ -20,12 +17,14 @@
             {% endif %}
             {% if site.author.linkedin and site.footer-links-active.linkedin %}
             <li>
-                <a href="https://www.linkedin.com/cws/share?mini=true&url={{ site.baseurl }}{{ include.url }}&title={{ include.title }}&source={{ include.title }}" title="Share on LinkedIn">
+                <a href="http://www.linkedin.com/shareArticle?mini=true&url={{site.url}}{{ page.url }}&title={{ page.title }}&source={{ site.url }}"
+                   title="Share on LinkedIn">
           <span class="fa-stack fa-lg">
             <i class="fa fa-circle fa-stack-2x"></i>
             <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
           </span>
                 </a>
+
             </li>
             {% endif %}
 
