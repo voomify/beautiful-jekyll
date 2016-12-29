@@ -3,7 +3,8 @@ layout: post
 title: Clean Architecture
 date: 2016-06-21 04:00:02 
 ---
-[Clean architecture](https://blog.8thlight.com/uncle-bob/2012/08/13/the-clean-architecture.html) has many names. It has been well defined by guru's in the industry since the 1980's.[^clean-names] 
+[Clean architecture](https://blog.8thlight.com/uncle-bob/2012/08/13/the-clean-architecture.html) has many names. 
+It has been well defined by guru's in the industry since the 1980's.[^clean-names] 
 Despite existing for so long with many names, it is exceedingly rare to find it in the wild.
 
 ![Clean Architecture](../img/clean-architecture1.jpg){:height="512px"}
@@ -18,9 +19,11 @@ Often the first discussion developers have about it include the following questi
 * Is it an Android or iPhone app or both?
 
 Clean architecture allows you to defer the answers to all these questions.
+
 But wait, how do I write this app without knowing the answers to any of these questions?
 The answer is that you focus on what the 'app' does. You focus on the domain. You identify
 the entities that make up the domain. Then you focus on the interactions (use cases) for the domain. 
+
 Now you can use any framework you want to deliver your 'app'. 
 Now you can use any database/storage you want to persist your 'app'.
 Now you can deliver your 'app' to any platform, including ones that you haven't even heard of yet.
